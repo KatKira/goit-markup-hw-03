@@ -1,0 +1,246 @@
+body{
+    font-family: 'Roboto';
+    color: black;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    width: 1200px;
+    margin:0 auto;
+}
+
+header > div{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 80px;
+    
+}
+header {
+    border-bottom:1px solid #ECECEC;
+}
+nav {
+    padding-right: 250px;
+}
+.menu > li {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.main-title > .container{
+    padding-top: 184px;
+    padding-bottom: 184px;
+    align-self: center;
+}
+.main-title{
+    height: 600px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div>a,
+address>a {
+    color: #757575;
+}
+
+a.logo {
+    justify-content: flex-start;
+    display: flex;
+}
+a:hover,
+a:active {
+    color: #2196f3;
+}
+button:hover {
+    cursor: pointer;
+}
+a.logo,
+a.logo-footer {
+    color: #2196f3;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Raleway';
+}
+a.logo-footer {
+    line-height: 2;
+}
+
+.logo-footer>span {
+    color: white;
+}
+ul.menu {
+    text-decoration: solid;
+    font-weight: 500;
+}
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 00.06em;
+    color: white;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+div>button {
+    font-size: 16px;
+    color: white;
+    background-color: #2196f3;
+    text-align: center;
+    letter-spacing: 000.06em;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border: #2196f3;
+    border-radius: 4px;
+}
+
+span,a{
+    color: black;
+    text-decoration: none;
+}
+.main-title{
+    background-color: #2F303A;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-title > div {
+    display: flex-block;
+    flex-direction: column;
+    align-items:center;
+}
+h2 {
+    text-align: center;
+}
+.field, .cards {
+    margin-left: auto;
+    margin-right: auto;
+}
+.cards {
+    justify-content: space-between;
+}
+.our-team{
+    background-color: #F5F4FA;
+    margin-left: auto;
+    margin-right: auto;
+}
+address{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.teams{
+    text-align: center;
+
+    justify-content: space-between;
+}
+.team{
+    display:inline-block;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+footer {
+    background-color: #2F303A;
+    line-height: 1.6;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+address > a {
+    display: flex;
+}
+.portfolio-title button {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    line-height: 1.62;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 5%;
+}
+.portfolio-buttons{
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 275px;
+    padding-right: 275px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+button:active, button:hover{
+    background-color: #2196f3;
+    color: white;
+}
+.portfolio {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    align-items:center;
+    margin-top: 0%;
+}
+ul.portfolio > li {
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+    margin-bottom: 40px;
+}
+h3, .portfolio-filter {
+    text-indent: 5%;
+}
+.portfolio-filter{
+    text-decoration: #757575;
+    font-weight: 400;
+}
+h3 {
+    font-size: 18px;
+    align-items: center;
+}
+.second-description{
+    align-items: center;
+}
+li > .card-title {
+    text-indent: 0;
+}
+
+.field{
+    padding-top: 0;
+}
+ul.portfolio>li:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16)
+}
